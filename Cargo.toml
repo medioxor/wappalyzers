@@ -1,11 +1,11 @@
 [package]
-name = "wappalyzer_rust"
+name = "wappalyzers"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
-name = "wappalyzer_rust"
+name = "wappalyzers"
 crate-type = ["cdylib"]
 
 [profile.release]

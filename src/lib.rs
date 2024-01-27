@@ -163,7 +163,7 @@ fn scan_url(url_string: String) -> PyResult<String> {
 
 /// A Python module implemented in Rust.
 #[pymodule]
-fn wappalyzer_rust(_py: Python, m: &PyModule) -> PyResult<()> {
+fn wappalyzers(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(scan_url, m)?)?;
     Ok(())
 }
